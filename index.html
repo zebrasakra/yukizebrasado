@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sado Spectator | 佐渡島の情報収集ならSado Spectator (佐渡観察隊)</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+    
+    <style>
+    .popup {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        background: #fff;
+        padding: 20px;
+    }
+    </style>
+</head>
+
+<body>
+	<header>
+		<div id="header_inner">
+			<h1>
+				<img src="images/logo.png" alt="Sado Spectator">
+			</h1>
+			<nav>
+				<ul>
+					<li><a href="#">フォトスポット</a></li>
+					<li><a href="#">おいしいもの</a></li>
+					<li><a href="#">さどのやど</a></li>
+					<li><a href="#">おみや</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="main_wrapper">
+		<div class="cf">
+			<div id="top_pickup">
+				<p id="pickup_thumb">
+					<img src="images/pickup.jpg" alt="ピックアップ画像" usemap="#image-map">
+					<span id="pickup_tag">万畳敷のリフレ</span>
+				</p>
+				<dl>
+					<dt><a href="#">
+						今日のおすすめスポット！
+						『黄昏の二つ亀』	
+					</a></dt>
+					<dd>2023.11.16</dd>
+				</dl>
+			</div>
+
+			<div id="top_ranking">
+				<h2>人気記事ランキング</h2>
+				<ul>
+					<li>
+						<dl>
+							<dt>
+								<img src="images/tmb_1.jpg" alt="ランキング画像01">
+								<span class="ranking_number">1</span>
+							</dt>
+							<dd>
+								<h3><a href="#">限定のっけ放題盛りはいかが？</a></h3>
+								<span class="ranking_tag webdesign">おいしいもの</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								<img src="images/tmb_2.jpg" alt="ランキング画像02">
+								<span class="ranking_number">2</span>
+							</dt>
+							<dd>
+								<h3><a href="#">棚田に張られた水に生える御神木</a></h3>
+								<span class="ranking_tag wordpress">フォトスポット</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								<img src="images/tmb_3.jpg" alt="ランキング画像03">
+								<span class="ranking_number">3</span>
+							</dt>
+							<dd>
+								<h3><a href="#">連合艦隊総司令官御用達の不思議な酒饅頭</a></h3>
+								<span class="ranking_tag webmarketing">おみや</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								<img src="images/tmb_4.jpg" alt="ランキング画像04">
+								<span class="ranking_number">4</span>
+							</dt>
+							<dd>
+								<h3><a href="#">落ち着いた庭園夜景の贅沢ディナー</a></h3>
+								<span class="ranking_tag webdesign">さどのやど</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="cf">
+			<div id="top_left">
+				<div id="top_category">
+					<h3>Golden Tour Schedule</h3>
+					<ul class="sche">
+						<li class="parent" onclick="func1(this)">初日
+							<ul>
+								<li><p>07:04　東京駅</p>
+									とき303号/10号車20DE</li>
+								<li><p>08:56　新潟駅</p>
+									タクシーで新潟港へ</li>
+								<li><p>09:25　新潟港</p>
+									<a href="https://www.sadokisen.co.jp/access-map/#about-ports">佐渡汽船 カーフェリー2等客室</a></li>
+								<li><p>11:55　両津港</p></li>
+								<li><a href="https://kigaruni-cars.jp/">12:00　気軽にレンタカー</a>
+								<p>4泊5日 ¥13120 ※現地払い</p></li>
+								<li><a href="https://sobamozem.com/">12:30　蕎麦 茂左衛門　もぜむ</a>
+									<p>蕎麦セット ¥1300</p>
+									<p>蕎麦懐石 ¥2500</p>
+									<p>※予約済み</p></li>
+								<li><a href="http://sado-natsu.com/kankou/futatsugame.html">14:25　二ツ亀</a></li>
+								<li><a href="http://sado-natsu.com/kankou/oonogame.html">14:50　大野亀</a></li>
+								<li><a href="https://www.google.com/travel/search?q=%E7%A6%8F%E5%8A%A9%E5%B1%8B%E6%97%85%E9%A4%A8&g2lb=2502548%2C2503771%2C2503781%2C2504374%2C4258168%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4924070%2C4950668%2C4950670%2C4965990%2C4990494%2C10207532%2C72277293%2C72298667%2C72302247%2C72317059%2C72379794%2C72379816%2C72385361%2C72402232%2C72406588%2C72408738%2C72412680%2C72414906%2C72421566%2C72427476&hl=ja-JP&gl=jp&ssta=1&ts=CAEaRwopEicyJTB4NWZmMzM1YWNiMDRiOWI5NzoweDhiYWU4ZDBkMmUyYjQyZGESGhIUCgcI5w8QDBgOEgcI5w8QDBgPGAEyAhAA&qs=CAEyFENnc0kyb1d0OGRLaG85ZUxBUkFCOAJCCQnaQisuDY2ui0IJCdpCKy4Nja6L&ap=ugEHcmV2aWV3cw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwigo7zp5cKCAxUAAAAAHQAAAAAQBQ&cshid=1699941025467623">15:30　福助屋旅館</a>
+									<p>夕朝食 ¥16500 ※現地払い</p></li>
+								<li><p>16:28　夕日（近場）</p></li>
+								<li><p>17:30　夕食（宿）</p></li>
+							</ul>
+						</li>
+						<li class="parent" onclick="func1(this)">二日目
+							<ul>
+								<li><p>07:00　朝食（宿）</p></li>
+								<li><p>07:30　チェックアウト</p></li>
+								<li><a href="https://niigata-kankou.or.jp/blog/75">09:00　北沢浮遊選鉱場</a>
+									<p>ロケハン</p></li>
+								<li><a href="">10:00　史跡佐渡金山</a>
+									<p>2坑道周遊コース ¥1500/人</p>
+									<p>宗太夫坑 江戸金山絵巻ｺｰｽ 40分</p>
+									<p>道遊坑 明治官営鉱山ｺｰｽ 40分</p></li>
+								<li><a href="https://www.visitsado.com/spot/detail0936/">12:30　北沢Terrace</a></li>
+								<li><a href="https://niigata-kankou.or.jp/blog/75">13:30　北沢浮遊選鉱場</a>
+									<p>ロケハン次第でパスするかも</p></li>
+								<li><a href="https://www.sado-seisuiji.jp/">15:00　清水寺</a>
+									<p>新穂大野の大銀杏含めロケハン</p></li>
+								<li><a href="https://www.facebook.com/henjinmokko">16:00　へんじんもっこ</a>
+									<p>たまとろサラミ他、おつまみゲット！</p></li>
+								<li><a href="https://sado.tabino-hotel.jp/">17:00　たびのホテル佐渡</a>
+									<p>¥8360 ※支払済</p></li>
+								<li><p>17:20　金井バス停</p>
+									新潟交通佐渡 本線</li>
+								<li><p>17:36　境バス停</p></li>
+								<li><a href="https://t0ki.beer/">17:40　t0ki Brewery</a>
+									<p>へんじんもっこフード持込</p></li>
+								<li><p>19:31　境バス停</p>
+									新潟交通佐渡 本線</li>
+								<li><p>17:47　金井バス停</p></li>			
+							</ul>
+						</li>
+						<li class="parent" onclick="func1(this)">三日目
+							<ul>
+								<li><p>08:00　チェックアウト</p>
+									朝食は前日コンビニでゲット</li>
+								<li><a href="https://www.pref.niigata.lg.jp/sec/toki/">08:30　佐渡トキ保護センター</a>
+									<p>隣に佐渡市トキの森公園</p>
+									<p>トキのテラスにも寄るかも</p></li>
+								<li><a href="https://niigata-kankou.or.jp/blog/704">11:00　すしやまるいし</a>
+									<p>(対抗: 佐渡弁慶 佐渡本店)</p></li>
+								<li><a href="https://gashimacinema.info/">13:00　ガシマシネマ</a>
+									<p>映画見ながらカフェタイム</p></li>
+								<li><p>15:00　相川の街並み</p>
+									相川の時鐘楼、西海岸巡り</li>
+								<li><p>16:28　夕日（春日崎）</p></li>
+								<li><a href="https://niigata-kankou.or.jp/blog/75">17:20　北沢浮遊選鉱場</a>
+									<p>ライトアップ狙い(17-18)</p></li>
+								<li><a href="https://www.s-perch.com/">18:30　Hostel Perch</a>
+									<p>¥10656 ※支払済</p></li>
+								<li><p>18:40　夕食</p>
+									別々に食べる感じ</li>
+							</ul>
+						</li>
+						<li class="parent" onclick="func1(this)">四日目
+							<ul>
+								<li><p>08:30　チェックアウト</p></li>
+								<li><a href="https://www.enjoysado.net/activity/2967/">09:30　妙宣寺</a>
+									<p>五重塔内部特別公開＆寺宝拝観</p></li>
+								<li><a href="https://www.visitsado.com/spot/detail0106/">10:30　大膳神社</a>
+									<p>ついでに佐渡国分寺も</p></li>
+								<li><a href="#">11:30　昼食（未定）</a></li>
+								<li><a href="http://park19.wakwak.com/~rikiyakankou/">13:00　たらい舟力屋観光汽船</a>
+									<p>¥700/人</p></li>
+								<li><a href="https://shukunegi.com/">14:00　宿根木の町並み</a>
+									<p>吉永小百合の足跡</p></li>
+								<li><a href="https://oginoyu.com/">15:00　佐渡温泉御宿おぎの湯</a>
+									<p>¥10900 ※予約済み</p></li>
+								<li><a href="">15:30　沢崎鼻灯台</a>
+									<p>神子岩、たけのこ岩</p>
+									<p>万畳敷 ※ウユニ塩湖</p></li>
+								<li><a href="">18:00　Origine (オリジヌ)</a>
+									<p>¥5000/人 ※予約済み</p></li>
+							</ul>
+						</li>	  
+						<li class="parent" onclick="func1(this)">最終日
+							<ul>
+								<li><p>07:00　Origine (オリジヌ)</p>
+									¥1000/人 モーニング</li>
+								<li><p>09:00　チェックアウト</p></li>
+								<li><p>10:20　へんじんもっこ</p>
+									たまとろサラミ他、お土産ゲット！</li>
+								<li><p>10:50　気軽にレンタカー</p></li>
+								<li><a href="https://www.visitsado.com/spot/detail0344/">11:00　いしはら寿司</a>
+									<p>かなりおもうまいらしい</p></li>
+								<li><a href="">12:00　maSanicoffee</a>
+									<p>両津港の中にあるカフェ</p></li>
+								<li><p>12:40　両津港</p></li>
+								<li><p>15:10　新潟港</p></li>
+								<li><p>15:44　新潟駅</p></li>
+								<li><p>17:40　東京駅</p></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div id="top_ad">
+					<img src="images/add.jpg" alt="ここに広告を挿入">
+				</div>
+			</div>
+			<div id="top_right">
+				<h3>新着記事一覧</h3>
+				<ul id="post_list">
+					<li class="cf">
+						<dl>
+							<dt>
+								<img src="images/tmb_5.jpg" alt="新着記事1の画像">
+								<span class="new_category_tag">おいしいもの</span>
+							</dt>
+							<dd>
+								<h4><a href="#">冬の味覚到来！海鮮尽くし</a></h4>
+								<span class="new_date">2023年11月11日</span>
+								<span class="new_tag">キーワード1,キーワード2</span>
+								<p>秋から冬へ移ろう季節、しっかり脂を蓄えたお魚にプリプリのアワビはいかが？<a href="#">...続きを読む</a></p>
+							</dd>
+						</dl>
+					</li>
+
+					<li class="cf">
+						<dl>
+							<dt>
+								<img src="images/tmb_6.jpg" alt="新着記事1の画像">
+								<span class="new_category_tag     ">おいしいもの</span>
+							</dt>
+							<dd>
+								<h4><a href="#">へぎそば、佐渡にもあるんだよ！</a></h4>
+								<span class="new_date">2023年11月10日</span>
+								<span class="new_tag">キーワード1,キーワード2</span>
+								<p>寒い冬に冷たいそばを啜るのもまたオツなもの。新潟と言えばへぎそば。佐渡でも食べられるんですよ。<a href="#">...続きを読む</a></p>
+							</dd>
+						</dl>
+					</li>
+
+					<li class="cf">
+						<dl>
+							<dt>
+								<img src="images/tmb_7.jpg" alt="新着記事1の画像">
+								<span class="new_category_tag     ">フォトスポット</span>
+							</dt>
+							<dd>
+								<h4><a href="#">氷瀑、育ってますよ</a></h4>
+								<span class="new_date">2023年11月6日</span>
+								<span class="new_tag">キーワード1,キーワード2</span>
+								<p>ようやく零下になる朝も増えてきました。昨年は見事な氷瀑が出現しましたが、今年はどうかな？<a href="#">...続きを読む</a></p>
+							</dd>
+						</dl>
+					</li>
+
+					<li class="cf">
+						<dl>
+							<dt>
+								<img src="images/tmb_8.jpg" alt="新着記事1の画像">
+								<span class="new_category_tag     ">おいしいもの</span>
+							</dt>
+							<dd>
+								<h4><a href="#">クラフトビールも黒い衣装に衣替え</a></h4>
+								<span class="new_date">2023年11月1日</span>
+								<span class="new_tag">キーワード1,キーワード2</span>
+								<p>長かった暑い夏も終わり冬の便りもちらほら。寒い季節には麦の香ばしい風味が豊かな黒ビールがオススメ。<a href="#">...続きを読む</a></p>
+							</dd>
+						</dl>
+					</li>
+
+					<li class="cf">
+						<dl>
+							<dt>
+								<img src="images/tmb_9.jpg" alt="新着記事1の画像">
+								<span class="new_category_tag     ">フォトスポット</span>
+							</dt>
+							<dd>
+								<h4><a href="#">秋終盤、紅葉狩りも最後のチャンス！</a></h4>
+								<span class="new_date">2023年10月28日</span>
+								<span class="new_tag">キーワード1,キーワード2</span>
+								<p>暖冬で遅れていた色付きもいよいよ佳境に入ってきました。<a href="#">...続きを読む</a></p>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<div id="pagination">
+					<ul class="cf">
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">NEXT >></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div><!-- #main_wrapper -->
+
+
+	<footer>
+		<div id="footer_inner" class="cf">
+			<dl id="footer_left">
+				<dt><img src="images/logo.png" alt="ロゴ"></dt>
+				<dd>株式会社Phantom Zebra  TEL: 000-000-000<br>〒000-0000  新潟県佐渡市00-0 金山ビル105F</dd>
+			</dl>
+			<div id="contact">
+				<h4>お問い合わせ<span>お問い合わせおまちしております</span></h4>
+				<form>
+					<textarea></textarea>
+					<br>
+					<input type="submit" value="送信する">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+<!--
+========================================
+	クリッカブルマップ実装
+=========================================
+-->
+
+<!-- Image Map Generated by http://www.image-map.net/ -->
+<!-- <img src="images/pickup.jpg" usemap="#image-map"> -->
+
+<map name="image-map">
+    <area target="_blank" alt="両津エリア" title="両津エリア" href="#ryotsu" class="open" coords="256,42,278,46,260,89,254,99,262,110,309,137,349,138,339,168,351,171,365,141,373,112,364,107,329,120,318,119,308,118,300,118,287,97,288,83,307,23,304,16,289,13,277,17,260,35" shape="poly">
+    <area target="_blank" alt="相川エリア" title="相川エリア" href="#aikawa.html" coords="253,44,234,69,222,108,229,136,234,150,244,157,259,158,265,156,254,139,265,110,255,98,260,87,278,45,261,44" shape="poly">
+    <area target="_blank" alt="国中エリア" title="国中エリア" href="#kuninaka" class="open" coords="265,110,253,137,266,154,282,147,293,166,289,175,269,187,280,195,305,180,334,189,351,170,339,168,348,137,310,135,271,115" shape="poly">
+    <area target="_blank" alt="南佐渡エリア" title="南佐渡エリア" href="#minamisado" class="open" coords="269,190,253,216,255,232,271,244,301,234,314,231,318,218,321,202,335,193,305,180,282,196" shape="poly">
+</map>
+
+<div id="ryotsu" class="popup mfp-hide">
+    <div>
+    <a href=https://itouyaryokan.com/blog/4491.html>🐢二ツ亀（願集落）</a>
+    <a href=http://sado-natsu.com/kankou/oonogame.html>🐢大野亀（願集落）</a>
+    </div>
+</div>
+</body>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.rwdImageMaps.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+<script id="rendered-js" >
+    $(".open").magnificPopup({
+    type: "inline" });
+    //# sourceURL=pen.js
+</script>
+
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+
+<script>
+jQuery( 'img[usemap]' ).rwdImageMaps();
+</script>
+
+<script>
+    function func1(e) {
+      e.classList.toggle("active");
+    }
+</script>
+
+</body>
+
+</html>
